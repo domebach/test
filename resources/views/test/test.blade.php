@@ -8,8 +8,10 @@
 
     @foreach ($test as $tests)
         <ul>
-            <li>{{$tests->name}}</li>
+            <li>{{$tests->name}}, {{$tests->age}}</li>
         </ul>
     @endforeach
+
+    <a href="/test/create">Go to User-Creation</a>
 </body>
 </html>
